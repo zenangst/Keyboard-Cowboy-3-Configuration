@@ -1,0 +1,520 @@
+[
+  {
+    "name" : "Global applications",
+    "bundleIdentifier" : "*",
+    "bindings" : [
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥A", "C"
+        ],
+        "name" : "Open Calendar",
+        "commands" : [
+          {
+            "kind" : "application",
+            "source" : "com.apple.iCal"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥A", "E"
+        ],
+        "name" : "Open Mail",
+        "commands" : [
+          {
+            "kind" : "application",
+            "source" : "com.apple.Mail"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥A", "A"
+        ],
+        "name" : "Open Cardhop",
+        "commands" : [
+          {
+            "kind" : "application",
+            "source" : "com.flexibits.cardhop.mac"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥F"
+        ],
+        "name" : "Open Finder",
+        "commands" : [
+          {
+            "kind" : "application",
+            "source" : "com.apple.Finder"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥A", "H"
+        ],
+        "name" : "Open Home app",
+        "commands" : [
+          {
+            "kind" : "application",
+            "source" : "com.apple.Home"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥A", "K"
+        ],
+        "name" : "Open Keychain",
+        "commands" : [
+          {
+            "kind" : "application",
+            "source" : "com.apple.keychainaccess"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥A", "M"
+        ],
+        "name" : "Open Maps",
+        "commands" : [
+          {
+            "kind" : "application",
+            "source" : "com.apple.maps"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥A", "D"
+        ],
+        "name" : "Open Messages",
+        "commands" : [
+          {
+            "kind" : "application",
+            "source" : "com.apple.iChat"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥A", "S"
+        ],
+        "name" : "Open Apple Music",
+        "commands" : [
+          {
+            "kind" : "application",
+            "source" : "com.apple.Music"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥A", "⌃N"
+        ],
+        "name" : "Open Apple News",
+        "commands" : [
+          {
+            "kind" : "application",
+            "source" : "com.apple.News"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥A", "N"
+        ],
+        "name" : "Open Notes",
+        "commands" : [
+          {
+            "kind" : "application",
+            "source" : "com.apple.Notes"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥A", "⌃⌥N"
+        ],
+        "name" : "Open Numbers",
+        "commands" : [
+          {
+            "kind" : "application",
+            "source" : "com.apple.Numbers"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥A", "⌃⌥P"
+        ],
+        "name" : "Open Pages",
+        "commands" : [
+          {
+            "kind" : "application",
+            "source" : "com.apple.Pages"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥A", "P"
+        ],
+        "name" : "Open Preview",
+        "commands" : [
+          {
+            "kind" : "application",
+            "source" : "com.apple.Preview"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥A", "I"
+        ],
+        "name" : "Open Photos",
+        "commands" : [
+          {
+            "kind" : "application",
+            "source" : "com.apple.Photos"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥A", "R"
+        ],
+        "name" : "Open Reminders",
+        "commands" : [
+          {
+            "kind" : "application",
+            "source" : "com.apple.Reminders"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥S"
+        ],
+        "name" : "Open Safari",
+        "commands" : [
+          {
+            "kind" : "application",
+            "source" : "com.apple.Safari"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥A", "."
+        ],
+        "name" : "Open System Preferences",
+        "commands" : [
+          {
+            "kind" : "application",
+            "source" : "com.apple.SystemPreferences"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥A", "⌘S"
+        ],
+        "name" : "Open Slack",
+        "commands" : [
+          {
+            "kind" : "application",
+            "source" : "com.tinyspeck.slackmacgap"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥A", "⌃⌥T"
+        ],
+        "name" : "Open Twitterfic",
+        "commands" : [
+          {
+            "kind" : "application",
+            "source" : "com.iconfactory.Twitterrific5"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥G", "⌃⌥R"
+        ],
+        "name" : "Open Reeder",
+        "commands" : [
+          {
+            "kind" : "application",
+            "source" : "com.reederapp.macOS"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "Global locations",
+    "bundleIdentifier" : "*",
+    "bindings" : [
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥⇧⌘A"
+        ],
+        "name" : "Open Applications",
+        "commands" : [
+          {
+            "kind" : "file",
+            "source" : "/Applications"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥⌘H"
+        ],
+        "name" : "Open iCloud",
+        "commands" : [
+          {
+            "kind" : "file",
+            "source" : "~/iCloud"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "Global developer tools",
+    "bundleIdentifier" : "*",
+    "bindings" : [
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌘e"
+        ],
+        "name" : "Open Xcode",
+        "commands" : [
+          {
+            "kind" : "application",
+            "source" : "com.apple.dt.Xcode"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥D", "A"
+        ],
+        "name" : "Open Activity Monitor",
+        "commands" : [
+          {
+            "kind" : "application",
+            "source" : "com.apple.ActivityMonitor"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥D", "C"
+        ],
+        "name" : "Open Console",
+        "commands" : [
+          {
+            "kind" : "application",
+            "source" : "com.apple.Console"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥D", "⌃⌥G"
+        ],
+        "name" : "Open Fork",
+        "commands" : [
+          {
+            "kind" : "application",
+            "source" : "com.DanPristupov.Fork"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥D", "⌃⌥I"
+        ],
+        "name" : "Open Instruments",
+        "commands" : [
+          {
+            "kind" : "application",
+            "source" : "com.apple.dt.Instruments"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥D", "I"
+        ],
+        "name" : "Open Simulator",
+        "commands" : [
+          {
+            "kind" : "application",
+            "source" : "com.apple.iphonesimulator"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃§"
+        ],
+        "name" : "Open Terminal",
+        "commands" : [
+          {
+            "kind" : "application",
+            "source" : "com.apple.Terminal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "Global keyboard shortcuts",
+    "bundleIdentifier" : "*",
+    "bindings" : [
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌥a"
+        ],
+        "name" : "Rebind ⌥a to ←",
+        "commands" : [
+          {
+            "kind" : "rebinding",
+            "source" : "←"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌥w"
+        ],
+        "name" : "Rebind ⌥w to ↑",
+        "commands" : [
+          {
+            "kind" : "rebinding",
+            "source" : "↑"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌥d"
+        ],
+        "name" : "Rebind ⌥ to →",
+        "commands" : [
+          {
+            "kind" : "rebinding",
+            "source" : "→"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌥s"
+        ],
+        "name" : "Rebind ⌥ to ↓",
+        "commands" : [
+          {
+            "kind" : "rebinding",
+            "source" : "↓"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌥l"
+        ],
+        "name" : "Rebind ⌥l to ←",
+        "commands" : [
+          {
+            "kind" : "rebinding",
+            "source" : "←"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌥p"
+        ],
+        "name" : "Rebind ⌥p to ↑",
+        "commands" : [
+          {
+            "kind" : "rebinding",
+            "source" : "↑"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌥ä"
+        ],
+        "name" : "Rebind ⌥ä to →",
+        "commands" : [
+          {
+            "kind" : "rebinding",
+            "source" : "→"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌥ö"
+        ],
+        "name" : "Rebind ⌥ö to ↓",
+        "commands" : [
+          {
+            "kind" : "rebinding",
+            "source" : "↓"
+          }
+        ]
+      }
+    ]
+  }
+]
