@@ -6,6 +6,30 @@
       {
         "enabled" : true,
         "combinations" : [
+          "⌃⌥A", "W"
+        ],
+        "name" : "Open Office applications",
+        "commands" : [
+          { "kind" : "application", "source" : "com.apple.iCal" },
+          { "kind" : "application", "source" : "com.flexibits.cardhop.mac" },
+          { "kind" : "application", "source" : "com.apple.mail" },
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥D", "⌃⌥A"
+        ],
+        "name" : "Open Developer Tools",
+        "commands" : [
+          { "kind" : "application", "source" : "com.DanPristupov.Fork" },
+          { "kind" : "application", "source" : "com.apple.Terminal" },
+          { "kind" : "application", "source" : "com.apple.dt.Xcode" },
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
           "⌃⌥A", "C"
         ],
         "name" : "Open Calendar",
@@ -25,7 +49,7 @@
         "commands" : [
           {
             "kind" : "application",
-            "source" : "com.apple.Mail"
+            "source" : "com.apple.mail"
           }
         ]
       },
