@@ -79,7 +79,7 @@
           {
             "enabled" : true,
             "kind" : "application",
-            "source" : "com.apple.Finder"
+            "source" : "com.apple.finder"
           }
         ]
       },
@@ -121,7 +121,7 @@
           {
             "enabled" : true,
             "kind" : "application",
-            "source" : "com.apple.maps"
+            "source" : "com.apple.Maps"
           }
         ]
       },
