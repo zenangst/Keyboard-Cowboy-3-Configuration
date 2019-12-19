@@ -10,9 +10,9 @@
         ],
         "name" : "Open Office applications",
         "commands" : [
-          { "kind" : "application", "source" : "com.apple.iCal" },
-          { "kind" : "application", "source" : "com.flexibits.cardhop.mac" },
-          { "kind" : "application", "source" : "com.apple.mail" },
+          { "enabled" : true, "kind" : "application", "source" : "com.apple.iCal" },
+          { "enabled" : true, "kind" : "application", "source" : "com.flexibits.cardhop.mac" },
+          { "enabled" : true, "kind" : "application", "source" : "com.apple.mail" },
         ]
       },
       {
@@ -22,9 +22,9 @@
         ],
         "name" : "Open Developer Tools",
         "commands" : [
-          { "kind" : "application", "source" : "com.DanPristupov.Fork" },
-          { "kind" : "application", "source" : "com.apple.Terminal" },
-          { "kind" : "application", "source" : "com.apple.dt.Xcode" },
+          { "enabled" : true, "kind" : "application", "source" : "com.DanPristupov.Fork" },
+          { "enabled" : true, "kind" : "application", "source" : "com.apple.Terminal" },
+          { "enabled" : true, "kind" : "application", "source" : "com.apple.dt.Xcode" },
         ]
       },
       {
@@ -35,6 +35,7 @@
         "name" : "Open Calendar",
         "commands" : [
           {
+            "enabled" : true,
             "kind" : "application",
             "source" : "com.apple.iCal"
           }
@@ -48,6 +49,7 @@
         "name" : "Open Mail",
         "commands" : [
           {
+            "enabled" : true,
             "kind" : "application",
             "source" : "com.apple.mail"
           }
@@ -61,6 +63,7 @@
         "name" : "Open Cardhop",
         "commands" : [
           {
+            "enabled" : true,
             "kind" : "application",
             "source" : "com.flexibits.cardhop.mac"
           }
@@ -74,6 +77,7 @@
         "name" : "Open Finder",
         "commands" : [
           {
+            "enabled" : true,
             "kind" : "application",
             "source" : "com.apple.Finder"
           }
@@ -87,6 +91,7 @@
         "name" : "Open Home app",
         "commands" : [
           {
+            "enabled" : true,
             "kind" : "application",
             "source" : "com.apple.Home"
           }
@@ -100,6 +105,7 @@
         "name" : "Open Keychain",
         "commands" : [
           {
+            "enabled" : true,
             "kind" : "application",
             "source" : "com.apple.keychainaccess"
           }
@@ -113,6 +119,7 @@
         "name" : "Open Maps",
         "commands" : [
           {
+            "enabled" : true,
             "kind" : "application",
             "source" : "com.apple.maps"
           }
@@ -126,6 +133,7 @@
         "name" : "Open Messages",
         "commands" : [
           {
+            "enabled" : true,
             "kind" : "application",
             "source" : "com.apple.iChat"
           }
@@ -139,6 +147,7 @@
         "name" : "Open Apple Music",
         "commands" : [
           {
+            "enabled" : true,
             "kind" : "application",
             "source" : "com.apple.Music"
           }
@@ -152,6 +161,7 @@
         "name" : "Open Apple News",
         "commands" : [
           {
+            "enabled" : true,
             "kind" : "application",
             "source" : "com.apple.News"
           }
@@ -165,6 +175,7 @@
         "name" : "Open Notes",
         "commands" : [
           {
+            "enabled" : true,
             "kind" : "application",
             "source" : "com.apple.Notes"
           }
@@ -178,6 +189,7 @@
         "name" : "Open Numbers",
         "commands" : [
           {
+            "enabled" : true,
             "kind" : "application",
             "source" : "com.apple.Numbers"
           }
@@ -191,6 +203,7 @@
         "name" : "Open Pages",
         "commands" : [
           {
+            "enabled" : true,
             "kind" : "application",
             "source" : "com.apple.Pages"
           }
@@ -204,6 +217,7 @@
         "name" : "Open Preview",
         "commands" : [
           {
+            "enabled" : true,
             "kind" : "application",
             "source" : "com.apple.Preview"
           }
@@ -217,6 +231,7 @@
         "name" : "Open Photos",
         "commands" : [
           {
+            "enabled" : true,
             "kind" : "application",
             "source" : "com.apple.Photos"
           }
@@ -230,6 +245,7 @@
         "name" : "Open Reminders",
         "commands" : [
           {
+            "enabled" : true,
             "kind" : "application",
             "source" : "com.apple.Reminders"
           }
@@ -243,6 +259,7 @@
         "name" : "Open Safari",
         "commands" : [
           {
+            "enabled" : true,
             "kind" : "application",
             "source" : "com.apple.Safari"
           }
@@ -256,6 +273,7 @@
         "name" : "Open System Preferences",
         "commands" : [
           {
+            "enabled" : true,
             "kind" : "application",
             "source" : "com.apple.SystemPreferences"
           }
@@ -269,6 +287,7 @@
         "name" : "Open Slack",
         "commands" : [
           {
+            "enabled" : true,
             "kind" : "application",
             "source" : "com.tinyspeck.slackmacgap"
           }
@@ -282,6 +301,7 @@
         "name" : "Open Twitterfic",
         "commands" : [
           {
+            "enabled" : true,
             "kind" : "application",
             "source" : "com.iconfactory.Twitterrific5"
           }
@@ -295,6 +315,7 @@
         "name" : "Open Reeder",
         "commands" : [
           {
+            "enabled" : true,
             "kind" : "application",
             "source" : "com.reederapp.macOS"
           }
@@ -314,6 +335,7 @@
         "name" : "Open Applications",
         "commands" : [
           {
+            "enabled": true,
             "kind" : "file",
             "source" : "/Applications"
           }
@@ -327,6 +349,7 @@
         "name" : "Open iCloud",
         "commands" : [
           {
+            "enabled": true,
             "kind" : "file",
             "source" : "~/iCloud"
           }
@@ -346,6 +369,7 @@
         "name" : "Open Xcode",
         "commands" : [
           {
+            "enabled" : true,
             "kind" : "application",
             "source" : "com.apple.dt.Xcode"
           }
@@ -359,6 +383,7 @@
         "name" : "Open Activity Monitor",
         "commands" : [
           {
+            "enabled" : true,
             "kind" : "application",
             "source" : "com.apple.ActivityMonitor"
           }
@@ -372,6 +397,7 @@
         "name" : "Open Console",
         "commands" : [
           {
+            "enabled" : true,
             "kind" : "application",
             "source" : "com.apple.Console"
           }
@@ -385,6 +411,7 @@
         "name" : "Open Fork",
         "commands" : [
           {
+            "enabled" : true,
             "kind" : "application",
             "source" : "com.DanPristupov.Fork"
           }
@@ -398,6 +425,7 @@
         "name" : "Open Instruments",
         "commands" : [
           {
+            "enabled" : true,
             "kind" : "application",
             "source" : "com.apple.dt.Instruments"
           }
@@ -411,6 +439,7 @@
         "name" : "Open Simulator",
         "commands" : [
           {
+            "enabled" : true,
             "kind" : "application",
             "source" : "com.apple.iphonesimulator"
           }
@@ -424,6 +453,7 @@
         "name" : "Open Terminal",
         "commands" : [
           {
+            "enabled" : true,
             "kind" : "application",
             "source" : "com.apple.Terminal"
           }
@@ -436,104 +466,112 @@
     "bundleIdentifier" : "*",
     "bindings" : [
       {
-        "enabled" : true,
+        "enabled" : false,
         "combinations" : [
           "⌥a"
         ],
         "name" : "Rebind ⌥a to ←",
         "commands" : [
           {
+            "enabled": false,
             "kind" : "rebinding",
             "source" : "←"
           }
         ]
       },
       {
-        "enabled" : true,
+        "enabled" : false,
         "combinations" : [
           "⌥w"
         ],
         "name" : "Rebind ⌥w to ↑",
         "commands" : [
           {
+            "enabled": false,
             "kind" : "rebinding",
             "source" : "↑"
           }
         ]
       },
       {
-        "enabled" : true,
+        "enabled" : false,
         "combinations" : [
           "⌥d"
         ],
         "name" : "Rebind ⌥ to →",
         "commands" : [
           {
+            "enabled": false,
             "kind" : "rebinding",
             "source" : "→"
           }
         ]
       },
       {
-        "enabled" : true,
+        "enabled" : false,
         "combinations" : [
           "⌥s"
         ],
         "name" : "Rebind ⌥ to ↓",
         "commands" : [
           {
+            "enabled": false,
             "kind" : "rebinding",
             "source" : "↓"
           }
         ]
       },
       {
-        "enabled" : true,
+        "enabled" : false,
         "combinations" : [
           "⌥l"
         ],
         "name" : "Rebind ⌥l to ←",
         "commands" : [
           {
+            "enabled": false,
             "kind" : "rebinding",
             "source" : "←"
           }
         ]
       },
       {
-        "enabled" : true,
+        "enabled" : false,
         "combinations" : [
           "⌥p"
         ],
         "name" : "Rebind ⌥p to ↑",
         "commands" : [
           {
+            "enabled": false,
             "kind" : "rebinding",
             "source" : "↑"
           }
         ]
       },
       {
-        "enabled" : true,
+        "enabled" : false,
         "combinations" : [
           "⌥ä"
         ],
         "name" : "Rebind ⌥ä to →",
         "commands" : [
           {
+            "enabled": false,
             "kind" : "rebinding",
             "source" : "→"
           }
         ]
       },
       {
-        "enabled" : true,
+        "enabled" : false,
         "combinations" : [
           "⌥ö"
         ],
         "name" : "Rebind ⌥ö to ↓",
         "commands" : [
           {
+            "enabled": false,
             "kind" : "rebinding",
             "source" : "↓"
           }
