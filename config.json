@@ -191,7 +191,7 @@
           {
             "enabled" : true,
             "kind" : "application",
-            "source" : "com.apple.Numbers"
+            "source" : "com.apple.iWork.Numbers"
           }
         ]
       },
@@ -205,7 +205,7 @@
           {
             "enabled" : true,
             "kind" : "application",
-            "source" : "com.apple.Pages"
+            "source" : "com.apple.iWork.Pages"
           }
         ]
       },
