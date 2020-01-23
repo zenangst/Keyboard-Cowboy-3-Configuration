@@ -1,56 +1,184 @@
 [
   {
-    "name" : "Global applications",
+    "name" : "GitHub",
     "bundleIdentifier" : "*",
     "bindings" : [
       {
         "enabled" : true,
         "combinations" : [
-          "⌃⌥A", "W"
+          "⌃⌥G",
+          "G"
         ],
-        "name" : "Open Office applications",
-        "commands" : [
-          { "enabled" : true, "kind" : "application", "source" : "com.apple.iCal" },
-          { "enabled" : true, "kind" : "application", "source" : "com.flexibits.cardhop.mac" },
-          { "enabled" : true, "kind" : "application", "source" : "com.apple.mail" },
-        ]
-      },
-      {
-        "enabled" : true,
-        "combinations" : [
-          "⌃⌥D", "⌃⌥A"
-        ],
-        "name" : "Open Developer Tools",
-        "commands" : [
-          { "enabled" : true, "kind" : "application", "source" : "com.DanPristupov.Fork" },
-          { "enabled" : true, "kind" : "application", "source" : "com.apple.Terminal" },
-          { "enabled" : true, "kind" : "application", "source" : "com.apple.dt.Xcode" },
-        ]
-      },
-      {
-        "enabled" : true,
-        "combinations" : [
-          "⌃⌥A", "C"
-        ],
-        "name" : "Open Calendar",
+        "name" : "Open Github",
         "commands" : [
           {
+            "kind" : "url",
             "enabled" : true,
-            "kind" : "application",
-            "source" : "com.apple.iCal"
+            "source" : "https://www.github.com",
+            "destination": "com.apple.Safari"
           }
         ]
       },
       {
         "enabled" : true,
         "combinations" : [
-          "⌃⌥A", "E"
+          "⌃⌥G",
+          "W"
         ],
-        "name" : "Open Mail",
+        "name" : "Open ps-appletv on Github",
         "commands" : [
           {
+            "kind" : "url",
             "enabled" : true,
+            "source" : "https://github.com/nrkno/ps-appletv",
+            "destination": "com.apple.Safari"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥G",
+          "M"
+        ],
+        "name" : "Open ps-appletv (milestones on Github)",
+        "commands" : [
+          {
+            "kind" : "url",
+            "enabled" : true,
+            "source" : "https://github.com/nrkno/ps-appletv/milestones",
+            "destination": "com.apple.Safari"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥G",
+          "P"
+        ],
+        "name" : "Open ps-appletv (pull requests on Github)",
+        "commands" : [
+          {
+            "kind" : "url",
+            "enabled" : true,
+            "source" : "https://github.com/nrkno/ps-appletv/pulls",
+            "destination": "com.apple.Safari"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥G",
+          "I"
+        ],
+        "name" : "Open GitHub inbox",
+        "commands" : [
+          {
+            "kind" : "url",
+            "enabled" : true,
+            "source" : "https://github.com/notifications/beta",
+            "destination": "com.apple.Safari"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "Scripts",
+    "bundleIdentifier" : "*",
+    "bindings" : [
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥⌘Q"
+        ],
+        "name" : "Run Quit all applications script",
+        "commands" : [
+          {
+            "kind" : "appleScript",
+            "enabled" : true,
+            "source" : "~\/iCloud\/Keyboard Cowboy\/Quit All Apps.scpt"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥A", "´"
+        ],
+        "name" : "Run Connect to Airpods",
+        "commands" : [
+          {
+            "kind" : "appleScript",
+            "enabled" : true,
+            "source" : "~\/iCloud\/Keyboard Cowboy\/Connect to Airpods.scpt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "Notes",
+    "bundleIdentifier" : "com.apple.Notes",
+    "bindings" : [
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌘O"
+        ],
+        "name" : "Float selected note (⌘O)",
+        "commands" : [
+          {
+            "kind" : "appleScript",
+            "enabled" : true,
+            "source" : "~\/iCloud\/Keyboard Cowboy\/Notes\/Notes - Float Selected Note.scpt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "Applications",
+    "bundleIdentifier" : "*",
+    "bindings" : [
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥A",
+          "⌃⌥W"
+        ],
+        "name" : "Open office application",
+        "commands" : [
+          {
             "kind" : "application",
+            "enabled" : true,
+            "source" : "com.flexibits.cardhop.mac"
+          },
+          {
+            "kind" : "application",
+            "enabled" : true,
+            "source" : "com.apple.Notes"
+          },
+          {
+            "kind" : "application",
+            "enabled" : false,
+            "source" : "com.tinyspeck.slackmacgap"
+          },
+          {
+            "kind" : "application",
+            "enabled" : true,
+            "source" : "com.flexibits.fantastical2.mac"
+          },
+          {
+            "kind" : "application",
+            "enabled" : false,
+            "source" : "com.apple.iCal"
+          },
+          {
+            "kind" : "application",
+            "enabled" : true,
             "source" : "com.apple.mail"
           }
         ]
@@ -58,13 +186,49 @@
       {
         "enabled" : true,
         "combinations" : [
-          "⌃⌥A", "A"
+          "⌃⌥A",
+          "C"
         ],
-        "name" : "Open Cardhop",
+        "name" : "Open Calendar",
         "commands" : [
           {
-            "enabled" : true,
             "kind" : "application",
+            "enabled" : true,
+            "source" : "com.flexibits.fantastical2.mac"
+          },
+          {
+            "kind" : "application",
+            "enabled" : false,
+            "source" : "com.apple.iCal"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥A",
+          "E"
+        ],
+        "name" : "Open Mail",
+        "commands" : [
+          {
+            "kind" : "application",
+            "enabled" : true,
+            "source" : "com.apple.mail"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥A",
+          "A"
+        ],
+        "name" : "Open Contacts",
+        "commands" : [
+          {
+            "kind" : "application",
+            "enabled" : true,
             "source" : "com.flexibits.cardhop.mac"
           }
         ]
@@ -77,8 +241,8 @@
         "name" : "Open Finder",
         "commands" : [
           {
-            "enabled" : true,
             "kind" : "application",
+            "enabled" : true,
             "source" : "com.apple.finder"
           }
         ]
@@ -86,13 +250,14 @@
       {
         "enabled" : true,
         "combinations" : [
-          "⌃⌥A", "H"
+          "⌃⌥A",
+          "H"
         ],
         "name" : "Open Home app",
         "commands" : [
           {
-            "enabled" : true,
             "kind" : "application",
+            "enabled" : true,
             "source" : "com.apple.Home"
           }
         ]
@@ -100,13 +265,14 @@
       {
         "enabled" : true,
         "combinations" : [
-          "⌃⌥A", "K"
+          "⌃⌥A",
+          "K"
         ],
         "name" : "Open Keychain",
         "commands" : [
           {
-            "enabled" : true,
             "kind" : "application",
+            "enabled" : true,
             "source" : "com.apple.keychainaccess"
           }
         ]
@@ -114,13 +280,14 @@
       {
         "enabled" : true,
         "combinations" : [
-          "⌃⌥A", "M"
+          "⌃⌥A",
+          "M"
         ],
         "name" : "Open Maps",
         "commands" : [
           {
-            "enabled" : true,
             "kind" : "application",
+            "enabled" : true,
             "source" : "com.apple.Maps"
           }
         ]
@@ -128,13 +295,14 @@
       {
         "enabled" : true,
         "combinations" : [
-          "⌃⌥A", "D"
+          "⌃⌥A",
+          "D"
         ],
         "name" : "Open Messages",
         "commands" : [
           {
-            "enabled" : true,
             "kind" : "application",
+            "enabled" : true,
             "source" : "com.apple.iChat"
           }
         ]
@@ -142,13 +310,14 @@
       {
         "enabled" : true,
         "combinations" : [
-          "⌃⌥A", "S"
+          "⌃⌥A",
+          "S"
         ],
         "name" : "Open Apple Music",
         "commands" : [
           {
-            "enabled" : true,
             "kind" : "application",
+            "enabled" : true,
             "source" : "com.apple.Music"
           }
         ]
@@ -156,13 +325,14 @@
       {
         "enabled" : true,
         "combinations" : [
-          "⌃⌥A", "⌃N"
+          "⌃⌥A",
+          "⌃N"
         ],
         "name" : "Open Apple News",
         "commands" : [
           {
-            "enabled" : true,
             "kind" : "application",
+            "enabled" : true,
             "source" : "com.apple.News"
           }
         ]
@@ -170,13 +340,14 @@
       {
         "enabled" : true,
         "combinations" : [
-          "⌃⌥A", "N"
+          "⌃⌥A",
+          "N"
         ],
         "name" : "Open Notes",
         "commands" : [
           {
-            "enabled" : true,
             "kind" : "application",
+            "enabled" : true,
             "source" : "com.apple.Notes"
           }
         ]
@@ -184,13 +355,14 @@
       {
         "enabled" : true,
         "combinations" : [
-          "⌃⌥A", "⌃⌥N"
+          "⌃⌥A",
+          "⌃⌥N"
         ],
         "name" : "Open Numbers",
         "commands" : [
           {
-            "enabled" : true,
             "kind" : "application",
+            "enabled" : true,
             "source" : "com.apple.iWork.Numbers"
           }
         ]
@@ -198,13 +370,14 @@
       {
         "enabled" : true,
         "combinations" : [
-          "⌃⌥A", "⌃⌥P"
+          "⌃⌥A",
+          "⌃⌥P"
         ],
         "name" : "Open Pages",
         "commands" : [
           {
-            "enabled" : true,
             "kind" : "application",
+            "enabled" : true,
             "source" : "com.apple.iWork.Pages"
           }
         ]
@@ -212,13 +385,14 @@
       {
         "enabled" : true,
         "combinations" : [
-          "⌃⌥A", "P"
+          "⌃⌥A",
+          "P"
         ],
         "name" : "Open Preview",
         "commands" : [
           {
-            "enabled" : true,
             "kind" : "application",
+            "enabled" : true,
             "source" : "com.apple.Preview"
           }
         ]
@@ -226,13 +400,14 @@
       {
         "enabled" : true,
         "combinations" : [
-          "⌃⌥A", "I"
+          "⌃⌥A",
+          "I"
         ],
         "name" : "Open Photos",
         "commands" : [
           {
-            "enabled" : true,
             "kind" : "application",
+            "enabled" : true,
             "source" : "com.apple.Photos"
           }
         ]
@@ -240,13 +415,14 @@
       {
         "enabled" : true,
         "combinations" : [
-          "⌃⌥A", "R"
+          "⌃⌥A",
+          "R"
         ],
         "name" : "Open Reminders",
         "commands" : [
           {
-            "enabled" : true,
             "kind" : "application",
+            "enabled" : true,
             "source" : "com.apple.Reminders"
           }
         ]
@@ -259,8 +435,8 @@
         "name" : "Open Safari",
         "commands" : [
           {
-            "enabled" : true,
             "kind" : "application",
+            "enabled" : true,
             "source" : "com.apple.Safari"
           }
         ]
@@ -268,13 +444,14 @@
       {
         "enabled" : true,
         "combinations" : [
-          "⌃⌥A", "."
+          "⌃⌥A",
+          "."
         ],
         "name" : "Open System Preferences",
         "commands" : [
           {
-            "enabled" : true,
             "kind" : "application",
+            "enabled" : true,
             "source" : "com.apple.SystemPreferences"
           }
         ]
@@ -282,13 +459,14 @@
       {
         "enabled" : true,
         "combinations" : [
-          "⌃⌥A", "⌘S"
+          "⌃⌥A",
+          "⌘S"
         ],
         "name" : "Open Slack",
         "commands" : [
           {
-            "enabled" : true,
             "kind" : "application",
+            "enabled" : true,
             "source" : "com.tinyspeck.slackmacgap"
           }
         ]
@@ -296,71 +474,109 @@
       {
         "enabled" : true,
         "combinations" : [
-          "⌃⌥A", "⌃⌥T"
+          "⌃⌥A",
+          "⌃⌥T"
         ],
         "name" : "Open Twitterfic",
         "commands" : [
           {
-            "enabled" : true,
             "kind" : "application",
+            "enabled" : true,
             "source" : "com.iconfactory.Twitterrific5"
           }
         ]
       },
       {
-        "enabled" : true,
+        "enabled" : false,
         "combinations" : [
-          "⌃⌥G", "⌃⌥R"
+          "⌃⌥G",
+          "⌃⌥R"
         ],
         "name" : "Open Reeder",
         "commands" : [
           {
-            "enabled" : true,
             "kind" : "application",
+            "enabled" : true,
             "source" : "com.reederapp.macOS"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name" : "Global locations",
-    "bundleIdentifier" : "*",
-    "bindings" : [
-      {
-        "enabled" : true,
-        "combinations" : [
-          "⌃⌥⇧⌘A"
-        ],
-        "name" : "Open Applications",
-        "commands" : [
-          {
-            "enabled": true,
-            "kind" : "file",
-            "source" : "/Applications"
           }
         ]
       },
       {
         "enabled" : true,
         "combinations" : [
-          "⌃⌥⌘H"
+          "⌃⌥A",
+          "G"
         ],
-        "name" : "Open iCloud",
+        "name" : "Open Edge",
         "commands" : [
           {
-            "enabled": true,
-            "kind" : "file",
-            "source" : "~/iCloud"
+            "kind" : "application",
+            "enabled" : true,
+            "source" : "com.microsoft.edgemac"
           }
         ]
       }
     ]
   },
   {
-    "name" : "Global developer tools",
+    "name" : "Developer tools",
     "bundleIdentifier" : "*",
     "bindings" : [
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥D",
+          "⌃⌥W"
+        ],
+        "name" : "Open Developer tools",
+        "commands" : [
+          {
+            "kind" : "application",
+            "enabled" : false,
+            "source" : "com.apple.dt.Instruments"
+          },
+          {
+            "kind" : "application",
+            "enabled" : true,
+            "source" : "com.apple.Terminal"
+          },
+          {
+            "kind" : "application",
+            "enabled" : true,
+            "source" : "com.DanPristupov.Fork"
+          },
+          {
+            "kind" : "application",
+            "enabled" : true,
+            "source" : "com.kapeli.dashdoc"
+          },
+          {
+            "kind" : "application",
+            "enabled" : true,
+            "source" : "com.apple.dt.Xcode"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥D",
+          "⌃⌥G"
+        ],
+        "name" : "Open Fork",
+        "commands" : [
+          {
+            "kind" : "application",
+            "enabled" : false,
+            "source" : "com.github.GitHubClient"
+          },
+          {
+            "kind" : "application",
+            "enabled" : true,
+            "source" : "com.DanPristupov.Fork"
+          }
+        ]
+      },
       {
         "enabled" : true,
         "combinations" : [
@@ -369,8 +585,8 @@
         "name" : "Open Xcode",
         "commands" : [
           {
-            "enabled" : true,
             "kind" : "application",
+            "enabled" : true,
             "source" : "com.apple.dt.Xcode"
           }
         ]
@@ -378,13 +594,29 @@
       {
         "enabled" : true,
         "combinations" : [
-          "⌃⌥D", "A"
+          "⌃⌥D",
+          "F"
+        ],
+        "name" : "Open Figma",
+        "commands" : [
+          {
+            "kind" : "application",
+            "enabled" : true,
+            "source" : "com.figma.Desktop"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥D",
+          "A"
         ],
         "name" : "Open Activity Monitor",
         "commands" : [
           {
-            "enabled" : true,
             "kind" : "application",
+            "enabled" : true,
             "source" : "com.apple.ActivityMonitor"
           }
         ]
@@ -392,13 +624,14 @@
       {
         "enabled" : true,
         "combinations" : [
-          "⌃⌥D", "C"
+          "⌃⌥D",
+          "C"
         ],
         "name" : "Open Console",
         "commands" : [
           {
-            "enabled" : true,
             "kind" : "application",
+            "enabled" : true,
             "source" : "com.apple.Console"
           }
         ]
@@ -406,27 +639,14 @@
       {
         "enabled" : true,
         "combinations" : [
-          "⌃⌥D", "⌃⌥G"
-        ],
-        "name" : "Open Fork",
-        "commands" : [
-          {
-            "enabled" : true,
-            "kind" : "application",
-            "source" : "com.DanPristupov.Fork"
-          }
-        ]
-      },
-      {
-        "enabled" : true,
-        "combinations" : [
-          "⌃⌥D", "⌃⌥I"
+          "⌃⌥D",
+          "⌃⌥I"
         ],
         "name" : "Open Instruments",
         "commands" : [
           {
-            "enabled" : true,
             "kind" : "application",
+            "enabled" : true,
             "source" : "com.apple.dt.Instruments"
           }
         ]
@@ -434,13 +654,14 @@
       {
         "enabled" : true,
         "combinations" : [
-          "⌃⌥D", "I"
+          "⌃⌥D",
+          "I"
         ],
         "name" : "Open Simulator",
         "commands" : [
           {
-            "enabled" : true,
             "kind" : "application",
+            "enabled" : true,
             "source" : "com.apple.iphonesimulator"
           }
         ]
@@ -453,8 +674,8 @@
         "name" : "Open Terminal",
         "commands" : [
           {
-            "enabled" : true,
             "kind" : "application",
+            "enabled" : true,
             "source" : "com.apple.Terminal"
           }
         ]
@@ -462,7 +683,90 @@
     ]
   },
   {
-    "name" : "Global keyboard shortcuts",
+    "name" : "Files",
+    "bundleIdentifier" : "*",
+    "bindings" : [
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥0"
+        ],
+        "name" : "Open Keyboard Cowboy configuration",
+        "commands" : [
+          {
+            "kind" : "file",
+            "enabled" : true,
+            "source" : "~\/iCloud\/Keyboard Cowboy\/config.json",
+            "destination": "com.apple.dt.Xcode"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "Folders",
+    "bundleIdentifier" : "*",
+    "bindings" : [
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥⇧⌘A"
+        ],
+        "name" : "Open Applications folder",
+        "commands" : [
+          {
+            "kind" : "file",
+            "enabled" : true,
+            "source" : "\/Applications"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥⇧⌘G"
+        ],
+        "name" : "Open Gifs folder",
+        "commands" : [
+          {
+            "kind" : "file",
+            "enabled" : true,
+            "source" : "~/iCloud/Documents/Gifs"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥⌘H"
+        ],
+        "name" : "Open iCloud folder",
+        "commands" : [
+          {
+            "kind" : "file",
+            "enabled" : true,
+            "source" : "~\/iCloud"
+          }
+        ]
+      },
+      {
+        "enabled" : true,
+        "combinations" : [
+          "⌃⌥O"
+        ],
+        "name" : "Open Documents folder",
+        "commands" : [
+          {
+            "kind" : "file",
+            "enabled" : true,
+            "source" : "~\/Documents"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "Keyboard shortcuts",
     "bundleIdentifier" : "*",
     "bindings" : [
       {
@@ -473,8 +777,8 @@
         "name" : "Rebind ⌥a to ←",
         "commands" : [
           {
-            "enabled": false,
             "kind" : "rebinding",
+            "enabled" : true,
             "source" : "←"
           }
         ]
@@ -487,8 +791,8 @@
         "name" : "Rebind ⌥w to ↑",
         "commands" : [
           {
-            "enabled": false,
             "kind" : "rebinding",
+            "enabled" : true,
             "source" : "↑"
           }
         ]
@@ -498,11 +802,11 @@
         "combinations" : [
           "⌥d"
         ],
-        "name" : "Rebind ⌥ to →",
+        "name" : "Rebind ⌥d to →",
         "commands" : [
           {
-            "enabled": false,
             "kind" : "rebinding",
+            "enabled" : true,
             "source" : "→"
           }
         ]
@@ -512,11 +816,11 @@
         "combinations" : [
           "⌥s"
         ],
-        "name" : "Rebind ⌥ to ↓",
+        "name" : "Rebind ⌥s to ↓",
         "commands" : [
           {
-            "enabled": false,
             "kind" : "rebinding",
+            "enabled" : true,
             "source" : "↓"
           }
         ]
@@ -529,8 +833,8 @@
         "name" : "Rebind ⌥l to ←",
         "commands" : [
           {
-            "enabled": false,
             "kind" : "rebinding",
+            "enabled" : true,
             "source" : "←"
           }
         ]
@@ -543,8 +847,8 @@
         "name" : "Rebind ⌥p to ↑",
         "commands" : [
           {
-            "enabled": false,
             "kind" : "rebinding",
+            "enabled" : true,
             "source" : "↑"
           }
         ]
@@ -557,8 +861,8 @@
         "name" : "Rebind ⌥ä to →",
         "commands" : [
           {
-            "enabled": false,
             "kind" : "rebinding",
+            "enabled" : true,
             "source" : "→"
           }
         ]
@@ -571,8 +875,8 @@
         "name" : "Rebind ⌥ö to ↓",
         "commands" : [
           {
-            "enabled": false,
             "kind" : "rebinding",
+            "enabled" : true,
             "source" : "↓"
           }
         ]
